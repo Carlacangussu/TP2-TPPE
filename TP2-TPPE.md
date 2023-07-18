@@ -10,18 +10,18 @@ O presente trabalho tem como objetivo destrinchar cinco das nove característica
 
 ## Boa documentação
 
-Descrição da característica: Uma boa documentação de um projeto de software é essencial para o seu sucesso a longo prazo. Ela serve como um guia detalhado e compreensível sobre o funcionamento do software, facilitando o entendimento, manutenção, colaboração e expansão do projeto. A documentação deve ser pequena porque o projeto deve ser simples. Isto é, deve ser claro, organizado e objetivo. 
+1. Descrição da característica: Uma boa documentação de um projeto de software é essencial para o seu sucesso a longo prazo. Ela serve como um guia detalhado e compreensível sobre o funcionamento do software, facilitando o entendimento, manutenção, colaboração e expansão do projeto. A documentação deve ser pequena porque o projeto deve ser simples. Isto é, deve ser claro, organizado e objetivo. 
 
 2. Efeitos no código:  
 Estrutura:  A boa documentação promove uma estrutura mais organizada e bem definida do projeto. Isso ocorre porque a documentação geralmente inclui diagramas, fluxos de trabalho e uma descrição geral da arquitetura, ajudando a esclarecer como os diferentes componentes do sistema se encaixam.  
 Ao apresentar uma visão geral da estrutura, a documentação facilita o entendimento dos relacionamentos entre módulos e partes do código, tornando mais fácil para os desenvolvedores navegarem pelo projeto e localizarem as informações relevantes.
 
-Claridade:  A documentação clara garante que as funcionalidades, APIs e comportamentos do software sejam bem compreendidos. Isso evita ambiguidades e interpretações errôneas que podem levar a erros de implementação ou uso inadequado.
+  Claridade:  A documentação clara garante que as funcionalidades, APIs e comportamentos do software sejam bem compreendidos. Isso evita ambiguidades e interpretações errôneas que podem levar a erros de implementação ou uso inadequado.
 
-Coesão: A documentação adequada pode enfatizar a coesão dentro do projeto. Quando os componentes são bem documentados, seus propósitos e responsabilidades ficam mais claros. Isso encoraja os desenvolvedores a seguir o princípio de "alta coesão", onde cada módulo possui uma função específica e bem definida, reduzindo assim o acoplamento entre diferentes partes do código.  
+  Coesão: A documentação adequada pode enfatizar a coesão dentro do projeto. Quando os componentes são bem documentados, seus propósitos e responsabilidades ficam mais claros. Isso encoraja os desenvolvedores a seguir o princípio de "alta coesão", onde cada módulo possui uma função específica e bem definida, reduzindo assim o acoplamento entre diferentes partes do código.  
 A coesão aprimorada geralmente resulta em um código mais organizado e mais fácil de manter, pois as responsabilidades são distribuídas de forma mais eficiente.
 
-Acoplamento: A documentação pode afetar o acoplamento, que é o grau de dependência entre as partes do software. Quanto mais clara e detalhada a documentação, mais fácil é entender como diferentes módulos interagem entre si.  
+  Acoplamento: A documentação pode afetar o acoplamento, que é o grau de dependência entre as partes do software. Quanto mais clara e detalhada a documentação, mais fácil é entender como diferentes módulos interagem entre si.  
 Ao compreender os pontos de acoplamento, os desenvolvedores podem tomar decisões mais informadas para reduzir o acoplamento indesejado e promover um design mais flexível e modular.  
 Além disso, a documentação que explica os requisitos de interface e os contratos entre módulos ajuda a evitar problemas de compatibilidade e alterações incompatíveis que podem surgir devido a mudanças não documentadas.
 
@@ -39,11 +39,11 @@ A extração de método torna mais fácil para outros desenvolvedores entenderem
 2. Efeitos no código:  
 Estrutura: A extensibilidade geralmente resulta em uma estrutura modular, onde as funcionalidades são organizadas em componentes independentes e reutilizáveis. Isso facilita a compreensão e a manutenção do código.
 
-Claridade: Componentes extensíveis são projetados para serem facilmente compreensíveis e modificáveis. Isso envolve o uso de nomes descritivos,	separação clara de responsabilidades e um design limpo.
+  Claridade: Componentes extensíveis são projetados para serem facilmente compreensíveis e modificáveis. Isso envolve o uso de nomes descritivos,	separação clara de responsabilidades e um design limpo.
 
-Coesão: A extensibilidade tende a promover a alta coesão, onde cada componente é responsável por uma única tarefa ou conjunto de tarefas relacionadas. Isso melhora a modularidade e facilita a manutenção do código.
+  Coesão: A extensibilidade tende a promover a alta coesão, onde cada componente é responsável por uma única tarefa ou conjunto de tarefas relacionadas. Isso melhora a modularidade e facilita a manutenção do código.
 
-Acoplamento: A extensibilidade busca reduzir o acoplamento entre os componentes, permitindo que eles sejam estendidos ou substituídos sem afetar outras partes do sistema. Isso resulta em um código mais flexível e menos propenso a efeitos colaterais indesejados.
+  Acoplamento: A extensibilidade busca reduzir o acoplamento entre os componentes, permitindo que eles sejam estendidos ou substituídos sem afetar outras partes do sistema. Isso resulta em um código mais flexível e menos propenso a efeitos colaterais indesejados.
 
 
 3. Relação com os "maus-cheiros de código" de Fowler: Os "maus-cheiros de código" são padrões ou práticas de programação que indicam a presença de problemas ou deficiências no código-fonte. A extensibilidade pode ajudar a mitigar ou evitar muitos desses maus-cheiros, pois um código extensível e projetado com foco na manutenção e em evitar  armadilhas comuns.  
@@ -59,11 +59,11 @@ Ao extrair métodos, você pode criar componentes independentes que podem ser es
 2. Efeitos no código:  
 Estrutura: A ausência de duplicidade geralmente resulta em um código mais estruturado, onde a lógica e organizada de forma clara e consistente. O código é dividido em partes reutilizáveis e independentes, facilitando sua compreensão e manutenção.
 
-Claridade: Eliminar a duplicidade torna o código mais legível e compreensível, pois não há repetição desnecessária de trechos de código. Isso facilita a identificação e o entendimento da funcionalidade específica implementada.
+  Claridade: Eliminar a duplicidade torna o código mais legível e compreensível, pois não há repetição desnecessária de trechos de código. Isso facilita a identificação e o entendimento da funcionalidade específica implementada.
 
-Coesão: Ao remover a duplicidade, a coesão do código é aprimorada. As responsabilidades são atribuídas de forma clara e as partes do código se concentram em tarefas específicas. Isso torna o código mais modular e facilita a manutenção.
+  Coesão: Ao remover a duplicidade, a coesão do código é aprimorada. As responsabilidades são atribuídas de forma clara e as partes do código se concentram em tarefas específicas. Isso torna o código mais modular e facilita a manutenção.
 
-Acoplamento: A ausência de duplicidade pode ajudar a reduzir o acoplamento entre as partes do código. Quando o mesmo trecho de código é usado em vários lugares, as alterações de um local podem afetar outros. Eliminando a duplicidade, e possível diminuir a dependência entre diferentes partes do sistema.
+  Acoplamento: A ausência de duplicidade pode ajudar a reduzir o acoplamento entre as partes do código. Quando o mesmo trecho de código é usado em vários lugares, as alterações de um local podem afetar outros. Eliminando a duplicidade, e possível diminuir a dependência entre diferentes partes do sistema.
 
 
 3. Relação com os "maus-cheiros de código" de Fowler: A duplicidade no código e frequentemente associada a maus­ cheiros de código identificados por Martin Fowler, coma "Duplicated Code" (Código Duplicado) e "Long Method" (Método Longo). Esses maus-cheiros indicam problemas potenciais de manutenção, clareza e flexibilidade no código.  
