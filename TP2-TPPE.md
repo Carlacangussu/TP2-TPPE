@@ -4,7 +4,7 @@
 - Álvaro Henrique de Sousa Gouvea 18/0012002
 - Carla Rocha Cangussú 17/0085023
 - Daniel Porto de Souza 18/0149687
-- Hugo Rocha
+- Hugo Rocha de Moura 18/0136925
 
 O presente trabalho tem como objetivo destrinchar cinco das nove características de um bom projeto de software citadas por Fowler. As cinco características que serão detalhadas a seguir são, boa documentação, extensibilidade, ausência de duplicidade e modularidade 
 
