@@ -11,7 +11,7 @@ O presente trabalho tem como objetivo destrinchar cinco das nove característica
 - [Extensibilidade;](#extensibilidade)
 - [Ausência de duplicidade no código;](#ausência-de-duplicidade-no-código)
 - [Modularidade;](#modularidade)
-- [*ultimaCaracteristica*](#ultimacaracteristica) <!-- !TODO -->
+- [Simplicidade;](#simplicidade) <!-- !TODO -->
 
 ## Boa documentação
 
@@ -94,16 +94,19 @@ Dentre os maus cheiros definidos por Fowler, a modularidade se relaciona, em esp
 
 O método de extrair classe pode ser citado com um que é capaz de melhorar a modularidade visto que se trata da criação de classes mais especializadas em escopos e finalidades específicas, possibilitando assim, uma potencial melhora na coesão. Além disso, pode-se citar, também, o método de extrair interface, o qual possibilita, também, diferentes modos de uso mais especializados e desacoplados.
 
-## *ultimaCaracteristica* <!-- !TODO -->
+## Simplicidade
 
 ### 1. Descrição:
+Simplicidade de código é descrito por Goodliffe como a mais importante característica de um código bem desenhado. De forma concisa a simplicidade de código se resume à arte de escrever código claro, conciso e de fácil entendimento. Seu objetivo é minimizar complexidades desnecessárias e tornar o código mais objetivo. 
 
 ### 2. Efeitos no código:  
-- **Estrutura:**
-- **Claridade:**
-- **Coesão:**
-- **Acoplamento:**
+- **Estrutura:** A simplicidade tem um impacto significativo na estrutura do código já que seus principios guiam diretamente não apenas a estrutura mas a complexidade dele. Ao se buscar um código com boa simplicidade, é incentivado a decomposição de tarefas complexas em componentes menores, mais gerenciáveis e especializados, o que leva a uma estrutura mais modularizada com cada parte do código possuindo uma função clara.
+- **Claridade:** Novamente, no que tange à claridade do código a simplicidade tem um papel fundamental, já que um código mais simples, com funções bem definidas e isento de complexidades desnecessárias, se torna mais compreensível.
+- **Coesão:** Mais uma vez, com o incentivo que a simplicidade traz à pedaços mais modularizados e especificados, com funções bem definidas, a coesão do código se torna mais natural ao agrupar segmentos de código de forma lógica de acordo com suas relações, evitando a mistura de trechos com funcionalidades não relacionadas.
+- **Acoplamento:** Quanto ao acoplamento, a simplicidade tem também um impacto positivo. A especialização de funções gera menor acoplamento entre os módulos, de forma que se torna mais gerenciável a alteração desses, podendo ser feitas mudanças em um módulo sem grandes alterações nos módulos relacionados.
 
 ### 3. Relação com os maus cheiros definidos por Fowler:
+Quando analisamos as relações dos maus cheiros definidos por Fowler com o conceito de simplicidade de código, é possível afirmar que as duas principais características que se relacionam com esse conceito são as ideias de métodos longos, e classes grandes. Em ambos os casos, a simplicidade de código ajuda com os principios de código limpo ao almejar a redução de complexidade e melhoria de manutenabilidade e compreensão. Dessa forma reduzindo os códigos em módulos igualmente simples mas completos isso naturalmente reduzirá o tamanho das classes e dos métodos apenas aos seus tamanhos necessários.
 
 ### 4. Exemplo de operação de refatoração
+Como um exemplo de operação de refatoração podemos olhar para a extração de método como uma forma de simplificação do código. Ao separarmos as funcionalidades de um método em unidades mais especializadas, evitamos o excesso de complexidade dentro dos métodos além de melhorar a legibilidade e diminuir o acoplamento do código.
